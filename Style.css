@@ -16,7 +16,7 @@
 
     --Very-dark-blue: hsl(233, 47%, 7%);
     --Dark-desaturated-blue: hsl(244, 38%, 16%);
-    --Soft-violet: hsla(277, 64%, 61%, 0.852);
+    --Soft-violet: hsla(277, 64%, 61%, 0.648);
 
     /*Neutral*/
 
@@ -65,7 +65,7 @@ p {
     margin-top: 1em;
 }
 
-.bg-color {
+/*.bg-color {
     background: var(--Soft-violet);
     height: 30vh;
     width: 85vw;
@@ -81,13 +81,23 @@ p {
     width: 85vw;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-}
+}*/
 
-/*.art-mobile{
-    width: 85vw;
+picture {
+    display: inline-block;
+    background: var(--Soft-violet);
+    height: 233.95px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-}*/
+}
+
+.art-mobile{
+    width: 85vw;
+    mix-blend-mode: multiply;
+    filter: grayscale(100%);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
 
 .card {
     width: 80vw;
