@@ -45,10 +45,10 @@ span {
 }
 
 h2 {
-    font-family: var(--font-ld);
+    font-family: var(--font-inter);
     color: var(--White);
     text-align: center;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 p {
@@ -118,7 +118,12 @@ picture {
 }
 
 .card-info {
+    height: 250px;
     margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: var(--font-inter);
 }
 .card-info p {
     font-size: 12px;
