@@ -99,6 +99,7 @@ picture {
 
 .art-mobile{
     width: 85vw;
+    height: 100%;
     mix-blend-mode: multiply;
     filter: grayscale(100%);
     border-top-right-radius: 10px;
@@ -176,10 +177,9 @@ picture {
     .card-general {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
         width: 450px;
         padding: 40px;
-
+        justify-content: space-between;
     }
 
     .card {
@@ -196,8 +196,10 @@ picture {
     .card-info {
         width: 90%;
         display: flex;
+        flex-direction: row;
         margin: 0;
         justify-content: space-between;
+        align-items: flex-end;
     }
     
 
